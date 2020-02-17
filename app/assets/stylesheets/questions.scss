@@ -1,0 +1,31 @@
+.banner {
+  background: red;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+$gray: #F4F4F4;
+
+body {
+  background: $gray;
+}
+
+a {
+  color: grey;
+  &:hover {
+    color: black;
+  }
+}
+
+p {
+
+  font-size: 30px;
+}
+input {
+ width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
